@@ -1,0 +1,19 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net7.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="System.Drawing.Common" Version="7.0.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Reference Include="L2_1">
+      <HintPath>..\..\WinFormsApp1_PASSED\WinFormsApp1\bin\Debug\net7.0-windows\L2_1.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+
+</Project>
